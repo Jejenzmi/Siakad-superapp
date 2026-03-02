@@ -15,6 +15,13 @@
       "when": 1705248854870,
       "tag": "0001_opposite_boomerang",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1709380000000,
+      "tag": "0002_add_employee_id_to_documents",
+      "breakpoints": true
     }
   ]
 }
