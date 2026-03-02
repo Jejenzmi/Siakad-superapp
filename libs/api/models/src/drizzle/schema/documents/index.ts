@@ -7,7 +7,7 @@ export const documents = pgTable("app_documents", {
   path: text("path").notNull(),
   isVerified: boolean("is_verified").default(false).notNull(),
   studentId: uuid("student_id").references(() => students.id),
-  employeeId: uuid("student_id").references(() => students.id),
+  employeeId: uuid("employee_id").references(() => employees.id),
   createdAt: timestamp("created_at", { withTimezone: true }).defaultNow().notNull(),
 });
 

@@ -9,7 +9,7 @@ services:
       POSTGRES_PASSWORD: admin
       POSTGRES_DB: uninus-db
     ports:
-      - "5435:5435"
+      - "5435:5432"
   cache:
     image: redis:6.2-alpine
     restart: always
