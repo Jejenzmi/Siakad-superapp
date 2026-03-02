@@ -1,0 +1,32 @@
+# CODEOWNERS
+# Each line is a file pattern followed by one or more owners.
+# Owners are automatically requested for review when a PR changes matching files.
+# See https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owner for everything not matched below
+* @Jejenzmi
+
+# Documentation
+*.md @Jejenzmi
+CONTRIBUTING.md @Jejenzmi
+SECURITY.md @Jejenzmi
+
+# CI/CD configuration
+.github/ @Jejenzmi
+
+# Root workspace configuration
+package.json @Jejenzmi
+nx.json @Jejenzmi
+tsconfig.base.json @Jejenzmi
+
+# Shared libraries
+libs/ @Jejenzmi
+
+# API services
+apps/api/ @Jejenzmi
+
+# Frontend applications
+apps/web/ @Jejenzmi
+
+# Mobile applications
+apps/mobile/ @Jejenzmi
