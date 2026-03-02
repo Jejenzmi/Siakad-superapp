@@ -1,0 +1,26 @@
+codecov:
+  # Require CI to pass before uploading coverage reports
+  require_ci_to_pass: yes
+
+coverage:
+  # Minimum coverage thresholds
+  status:
+    project:
+      default:
+        target: 70%
+        threshold: 1%
+    patch:
+      default:
+        target: 70%
+        threshold: 5%
+
+# Ignore auto-generated or non-testable files
+ignore:
+  - "**/*.spec.ts"
+  - "**/*.test.ts"
+  - "**/index.ts"
+  - "dist/**"
+  - "node_modules/**"
+  - "migrations/**"
+  - ".storybook/**"
+  - "**/*.stories.tsx"
